@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Manim",
+      "type": "shell",
+      "command": "manim",
+      "args": ["-pql", "src/scene.py", "CreateCircle"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

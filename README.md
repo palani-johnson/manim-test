@@ -10,4 +10,4 @@
 
 5. Open VSCode from the shell by running `code .`
 
-6. Run the CreateCircle scene by running `manim -pql src/scene.py CreateCircle`
+6. Run the CreateCircle scene by running `manim -pql src/scene.py CreateCircle`. Alternatively use the build task with `Cmd+Shift+B` on macOS.
